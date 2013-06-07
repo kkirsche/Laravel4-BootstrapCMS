@@ -55,6 +55,21 @@ App::error(function(Exception $exception, $code)
 
 /*
 |--------------------------------------------------------------------------
+| Application 404 Handler
+|--------------------------------------------------------------------------
+|
+| Here you may handle any 404 errors that occur in your application.
+|
+*/
+
+App::missing(function($exception)
+{
+    $content = View::make('404');
+    return Response::make($content, 404);
+});
+
+/*
+|--------------------------------------------------------------------------
 | Maintenance Mode Handler
 |--------------------------------------------------------------------------
 |
