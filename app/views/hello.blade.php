@@ -6,15 +6,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>BootstrapCMS</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/flat-ui.css') }}">
         <style>
             body {
                 padding-top: 60px;
-                padding-bottom: 40px;
             }
         </style>
         <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-responsive.min.css') }}">
@@ -35,7 +35,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Project name</a>
+                    <a class="brand" href="#">BootstrapCMS</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                             <li class="active"><a href="#">Home</a></li>
@@ -57,7 +57,7 @@
                         <form class="navbar-form pull-right">
                             <input class="span2" type="text" placeholder="Email">
                             <input class="span2" type="password" placeholder="Password">
-                            <button type="submit" class="btn">Sign in</button>
+                            <button type="submit" class="btn btn-primary">Sign in</button>
                         </form>
                     </div><!--/.nav-collapse -->
                 </div>
@@ -69,7 +69,7 @@
             <!-- Main hero unit for a primary marketing message or call to action -->
             <div class="hero-unit">
                 <h1>Hello, world!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                <p style="font-size: 1em;">This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
                 <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
             </div>
 
@@ -91,14 +91,80 @@
                     <p><a class="btn" href="#">View details &raquo;</a></p>
                 </div>
             </div>
-
-            <hr>
-
-            <footer>
-                <p>&copy; Company 2012</p>
-            </footer>
-
         </div> <!-- /container -->
+
+        <div class="bottom-menu bottom-menu-large">
+      <div class="container">
+        <div class="row">
+          <div class="span2 brand">
+            <a href="#fakelink" class="fui-flat"></a>
+          </div>
+
+          <div class="span2">
+            <h5 class="title">About Us</h5>
+            <ul class="bottom-links">
+              <li><a href="#fakelink">Dashboard</a></li>
+              <li><a href="#fakelink">Feed</a></li>
+              <li><a href="#fakelink">Forums</a></li>
+              <li><a href="#fakelink">Radio</a></li>
+              <li><a href="#fakelink">Journal</a></li>
+              <li><a href="#fakelink">Reader</a></li>
+              <li><a href="#fakelink">Store</a></li>
+            </ul>
+          </div>
+
+          <div class="span2">
+            <h5 class="title">Categories</h5>
+            <ul class="bottom-links">
+              <li><a href="#fakelink">Design</a></li>
+              <li><a href="#fakelink">Freebies</a></li>
+              <li><a href="#fakelink">Tutorials</a></li>
+              <li><a href="#fakelink">Coding</a></li>
+              <li><a href="#fakelink">Inspiration</a></li>
+              <li><a href="#fakelink">WordPress</a></li>
+              <li><a href="#fakelink">Resources</a></li>
+            </ul>
+          </div>
+
+          <div class="span2">
+            <h5 class="title">Networks</h5>
+            <ul class="bottom-links">
+              <li><a href="#fakelink">Insight</a></li>
+              <li><a href="#fakelink">Promotion</a></li>
+              <li><a href="#fakelink">Production</a></li>
+              <li><a href="#fakelink">Planning</a></li>
+              <li><a href="#fakelink">Journal</a></li>
+              <li><a href="#fakelink">Reader</a></li>
+              <li><a href="#fakelink">Store</a></li>
+            </ul>
+          </div>
+
+          <div class="span2">
+            <h5 class="title">Mainframe</h5>
+            <ul class="bottom-links">
+              <li><a href="#fakelink">Register / Login</a></li>
+              <li class="active"><a href="#fakelink">Jobs</a></li>
+              <li><a href="#fakelink">Contacts</a></li>
+              <li><a href="#fakelink">Privacy</a></li>
+              <li><a href="#fakelink">Terms of Use</a></li>
+            </ul>
+          </div>
+
+          <div class="span2">
+            <h5 class="title">Follow Us</h5>
+            <ul class="bottom-links">
+              <li><a href="#fakelink">Facebook</a></li>
+              <li><a href="#fakelink">Twitter</a></li>
+              <li><a href="#fakelink">Youtube</a></li>
+              <li><a href="#fakelink">Vimeo</a></li>
+              <li><a href="#fakelink">Instagram</a></li>
+              <li><a href="#fakelink">Vine <span class="label label-small label-primary">New</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="{{ URL::asset('js/vendor/jquery-1.9.1.min.js') }}"><\/script>')</script>
